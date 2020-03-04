@@ -14,18 +14,18 @@
       href="https://fonts.googleapis.com/css?family=Lato|Oxanium|Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="utility.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/utility.css" />
     <link
-      rel="stylesheet" type="text/css" href="mobile.css"
+      rel="stylesheet" type="text/css" href="css/mobile.css"
     />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="Image/logo.png">
     <title>ASIF KARIM</title>
   </head>
-  <body >
-    <!-- <div id="loading"></div> -->
+  <body>
+    <div id="loading"></div>
     <header>
       <div class="container">
         <nav class="navbar">
@@ -74,6 +74,9 @@
     <section id="about">
       <div class="container">
         <div
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100"
         >
           <h2 class="about-title title">About Me</h2>
           <div class="bottom-line"></div>
@@ -119,50 +122,56 @@
       </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    >
       <div class="container">
         <div class="skill-content py-2">
           <div class="py-2" data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
-          data-aos-delay="50">
+          data-aos-delay="100">
             <h2 class="title">Technical Skills</h2>
             <div class="bottom-line"></div>
           </div>
-            <div class="py-skill">
-              <h4>
-                <i class="fab fa-html5 fa-2x"></i
-                ><span class="skill-title">Html5</span>
-              </h4>
-              <div class="progress-bar"><div class="html"></div></div>
-            </div>
-            <div class="py-skill">
-              <h4>
-                <i class="fab fa-css3 fa-2x"></i
-                ><span class="skill-title">Css3</span>
-              </h4>
-              <div class="progress-bar"><div class="css"></div></div>
-            </div>
-            <div class="py-skill">
-              <h4>
-                <i class="fab fa-js fa-2x"></i
-                ><span class="skill-title">Javascript</span>
-              </h4>
-              <div class="progress-bar"><div class="js"></div></div>
-            </div>
-            <div class="py-skill">
-              <h4>
-                <i class="fab fa-react fa-2x"></i
-                ><span class="skill-title rjs">React-Js</span>
-              </h4>
-              <div class="progress-bar"><div class="react"></div></div>
-            </div>
-            <div class="py-skill">
-              <h4>
-                <i class="fab fa-node-js fa-2x"></i
-                ><span class="skill-title njs">Node-Js</span>
-              </h4>
-              <div class="progress-bar"><div class="node"></div></div>
-            </div>
+          <div data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="200">
+          <div class="py-skill">
+            <h4>
+              <i class="fab fa-html5 fa-2x"></i
+              ><span class="skill-title">Html5</span>
+            </h4>
+            <div class="progress-bar"><div class="html"></div></div>
+          </div>
+          <div class="py-skill">
+            <h4>
+              <i class="fab fa-css3 fa-2x"></i
+              ><span class="skill-title">Css3</span>
+            </h4>
+            <div class="progress-bar"><div class="css"></div></div>
+          </div>
+          <div class="py-skill">
+            <h4>
+              <i class="fab fa-js fa-2x"></i
+              ><span class="skill-title">Javascript</span>
+            </h4>
+            <div class="progress-bar"><div class="js"></div></div>
+          </div>
+          <div class="py-skill">
+            <h4>
+              <i class="fab fa-react fa-2x"></i
+              ><span class="skill-title rjs">React-Js</span>
+            </h4>
+            <div class="progress-bar"><div class="react"></div></div>
+          </div>
+          <div class="py-skill">
+            <h4>
+              <i class="fab fa-node-js fa-2x"></i
+              ><span class="skill-title njs">Node-Js</span>
+            </h4>
+            <div class="progress-bar"><div class="node"></div></div>
+          </div>
+          </div>
         </div>
         <div class="slantdiv2"></div>
         <div class="slantdiv6"></div>
@@ -173,7 +182,9 @@
 
     <section id="project" > 
       <div class="container">
-          <div class="t">
+          <div data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100">
             <h2 class="about-title title">My Work</h2>
             <div class="bottom-line"></div>
             <p class="subheading">
@@ -181,7 +192,7 @@
             </p>
           </div>
 
-          <div class="projects">
+          <div class="projects" data-aos="fade-right" data-aos-delay="200">
             <div class="project-item">
               <div class="project-content">
                 <i class="fas fa-video fa-4x"></i>
@@ -223,7 +234,7 @@
 
         </div>
 
-          <div class="projects container">
+          <div class="projects container" data-aos="fade-left" data-aos-delay="200">
             <div class="project-item item-right">
               <div class="project-content">
                 <i class="fas fa-address-book fa-4x"></i>
@@ -261,7 +272,7 @@
             </div>
           </div>
 
-          <div class="projects container">
+          <div class="projects container" data-aos="fade-right" data-aos-delay="200">
             <div class="project-item">
               <div class="project-content">
                 <i class="fab fa-github fa-4x"></i>
@@ -294,7 +305,7 @@
             </div>
           </div>
 
-          <div class="projects container">
+          <div class="projects container" data-aos="fade-left" data-aos-delay="200">
             <div class="project-item item-right">
               <div class="project-content">
                 <i class="fab fa-imdb fa-4x"></i>
@@ -330,20 +341,27 @@
     </section>
 
 
-    <section id="contact">
+    <section id="contact" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back">
       <div class="container">
         <div class="contact-content">
-          <div class="contact-title">
+          <div class="contact-title"data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100">
             <h2 class="about-title title">Contact Me</h2>
             <div class="bottom-line"></div>
           </div>
           <div class="contact-item">
-            <div class="social-links">
+            <div class="social-links" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="150">
               <a href="https://www.instagram.com/asif47__/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
               <a href="https://github.com/47karimasif" target="_blank"><i class="fab fa-github fa-2x"></i></a>
               <a href="https://www.linkedin.com/in/asif-karim-a35038182/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
             </div>
-            <div class="gmail">
+            <div class="gmail" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="200">
                <span><a href = "mailto: karimasif98@gmail.com">karimasif98@gmail.com</a></span>
             </div>
           </div>
@@ -361,6 +379,6 @@
     </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

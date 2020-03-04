@@ -21,19 +21,19 @@ $(".navbar a, .scrollDown").click(function() {
 });
 
 // preloader
-// window.addEventListener("load", function() {
-//   setTimeout(() => {
-//     var preloader = document.getElementById("loading");
-//     preloader.style.display = "none";
-//   }, 3000);
-// });
+window.addEventListener("load", function() {
+  setTimeout(() => {
+    var preloader = document.getElementById("loading");
+    preloader.style.display = "none";
+  }, 3000);
+});
 
 // for disabling right click
-// $(document).bind("contextmenu", function(e) {
-//   e.preventDefault();
-// });
-// $(document).keydown(function(e) {
-//   if (e.which === 123) {
-//     return false;
-//   }
-// });
+$(document).bind("contextmenu", function(e) {
+  e.preventDefault();
+});
+$(document).keydown(function(e) {
+  if (e.which === 123) {
+    return false;
+  }
+});

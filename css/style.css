@@ -7,7 +7,7 @@
   position: fixed;
   width: 100%;
   height: 100vh;
-  background: #fff url("spin.svg") no-repeat center center;
+  background: #fff url("../preloader/spin.svg") no-repeat center center;
   z-index: 99999;
 }
 body {
@@ -178,6 +178,7 @@ header {
 #wel1 {
   font-size: 2rem;
   color: white;
+  margin-right: 5px;
 }
 .title2 {
   font-size: 1.5rem;
@@ -205,6 +206,7 @@ header {
 .resume:hover {
   border-color: #64ffda;
   transform: scale(1.1);
+  color: gold;
 }
 
 /* about */
@@ -422,6 +424,9 @@ header {
   text-decoration: underline;
   color: #ff4b4b;
 }
+.link a:hover {
+  color: rgb(0, 133, 93);
+}
 .p-line {
   width: 70px;
   height: 2px;
@@ -495,7 +500,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(63, 199, 192);
+  background-color: rgb(101, 195, 207);
 }
 .contact-item .social-links i:hover {
   border-color: rgb(238, 213, 69);
@@ -513,13 +518,16 @@ header {
   color: rgb(161, 255, 219);
   font-size: 1.2rem;
 }
+.contact-item .gmail span a:hover {
+  color: gold;
+}
 
 /* footer */
 
 #footer {
   background-color: black;
-  color: white;
   font-size: 0.8rem;
+  color: #fff;
 }
 .footer-content {
   display: flex;
@@ -528,7 +536,7 @@ header {
   opacity: 0.7;
 }
 .footer-content span:hover {
-  color: #00b3ff;
+  color: gold;
 }
 
 /* Media Queries */
