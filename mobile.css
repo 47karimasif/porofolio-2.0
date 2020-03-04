@@ -8,7 +8,7 @@
   .navbar {
     flex-direction: column;
     display: block;
-    min-height: 9vh;
+    min-height: 10vh;
     transition: height 1s ease;
   }
   .toggle-collapse {
@@ -62,8 +62,8 @@
   }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 360px) {
   .navbar {
-    min-height: 11.7vh;
+    min-height: 12vh;
   }
 }
