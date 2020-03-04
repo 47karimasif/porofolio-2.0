@@ -88,9 +88,6 @@
 }
 
 @media only screen and (max-width: 360px) {
-  * {
-    overflow-x: hidden;
-  }
   .navbar {
     min-height: 12vh;
   }
