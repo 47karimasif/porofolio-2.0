@@ -131,7 +131,6 @@ header {
   padding: 0.75rem;
   margin: 0 0.25rem;
   border-bottom: 2px transparent solid;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: small;
 }
 
@@ -156,7 +155,6 @@ header {
 }
 
 .title1 {
-  font-family: "SF Mono", monospace, sans-serif;
   color: #64ffda;
   margin-bottom: 8px;
   font-weight: lighter;
@@ -176,7 +174,6 @@ header {
 #welcome {
   padding: 2rem 0;
   margin-top: 1rem;
-  font-family: "SF Mono", monospace, sans-serif;
 }
 #wel1 {
   font-size: 2rem;
