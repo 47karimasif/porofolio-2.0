@@ -20,7 +20,6 @@ $(".navbar a, .scrollDown").click(function() {
   return false;
 });
 
-// for disabling right click
 // $(document).bind("contextmenu", function(e) {
 //   e.preventDefault();
 // });
