@@ -22,10 +22,8 @@ $(".navbar a, .scrollDown").click(function() {
 
 // preloader
 window.addEventListener("load", function() {
-  setTimeout(() => {
-    var preloader = document.getElementById("loading");
-    preloader.style.display = "none";
-  }, 3000);
+  var preloader = document.getElementById("loading");
+  preloader.style.display = "none";
 });
 
 // for disabling right click
