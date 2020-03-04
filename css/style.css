@@ -202,7 +202,6 @@ header {
 
 .resume:hover {
   border-color: #64ffda;
-  transform: scale(1.1);
   color: gold;
 }
 
