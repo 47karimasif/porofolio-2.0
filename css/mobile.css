@@ -29,9 +29,6 @@
   }
 }
 @media only screen and (max-width: 600px) {
-  * {
-    overflow-x: hidden;
-  }
   .project-item {
     width: 75%;
   }
@@ -89,7 +86,11 @@
     color: gold;
   }
 }
-
+@media only screen and (max-width: 499x) {
+  * {
+    overflow-x: hidden;
+  }
+}
 @media only screen and (max-width: 360px) {
   .navbar {
     min-height: 12vh;
