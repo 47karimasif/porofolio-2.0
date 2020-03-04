@@ -36,9 +36,6 @@
 
 /* for-mobile */
 @media only screen and (max-width: 550px) {
-  * {
-    overflow-x: hidden;
-  }
   #showcase {
     height: 85vh;
   }
