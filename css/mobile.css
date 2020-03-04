@@ -36,9 +36,6 @@
 
 /* for-mobile */
 @media only screen and (max-width: 550px) {
-  * {
-    overflow: hidden;
-  }
   #showcase {
     height: 85vh;
   }
@@ -91,6 +88,9 @@
 }
 
 @media only screen and (max-width: 360px) {
+  * {
+    overflow-x: hidden;
+  }
   .navbar {
     min-height: 12vh;
   }
