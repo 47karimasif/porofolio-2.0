@@ -20,12 +20,6 @@ $(".navbar a, .scrollDown").click(function() {
   return false;
 });
 
-// preloader
-window.addEventListener("load", function() {
-  var preloader = document.getElementById("loading");
-  preloader.style.display = "none";
-});
-
 // for disabling right click
 $(document).bind("contextmenu", function(e) {
   e.preventDefault();
