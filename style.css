@@ -12,8 +12,8 @@
 }
 body {
   font-family: "Roboto";
-  /* font-family: "Lato";
-  font-family: "Oxanium"; */
+  font-family: "Lato";
+  font-family: "Oxanium";
 }
 a {
   text-decoration: none;
@@ -376,6 +376,7 @@ header {
   background-color: rgb(213, 226, 213);
   padding: 40px 20px;
   margin: 20px 10px;
+  border-left: 2px solid gold;
 }
 .project-content:first-child {
   flex: 2;
@@ -430,11 +431,11 @@ header {
   background-color: rgb(28, 108, 228);
   display: inline-block;
   position: absolute;
-  top: 22px;
+  top: 12px;
   left: 125px;
 }
 .p-line2 {
-  width: 70px;
+  width: 60px;
   height: 2px;
   background-color: rgb(28, 108, 228);
   display: inline-block;
@@ -528,6 +529,9 @@ header {
   justify-content: center;
   padding: 20px;
   opacity: 0.7;
+}
+.footer-content span:hover {
+  color: #00b3ff;
 }
 
 /* Media Queries */

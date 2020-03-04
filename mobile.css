@@ -47,6 +47,7 @@
   }
   #up p {
     font-size: 0.8rem;
+    width: 80%;
   }
   .resume {
     padding: 10px;
@@ -59,6 +60,26 @@
   }
   .title2 {
     font-size: 1.1rem;
+  }
+  .about-items img {
+    height: 70%;
+    width: 70%;
+  }
+  .about-items hr {
+    width: 250px;
+  }
+  .b1 {
+    font-size: 0.9rem;
+  }
+  .project-item {
+    display: block;
+    width: 85%;
+  }
+  .project-content {
+    margin-top: 20px;
+  }
+  .item-right {
+    margin-left: 14%;
   }
 }
 
