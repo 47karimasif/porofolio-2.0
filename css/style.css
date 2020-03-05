@@ -96,7 +96,6 @@ header {
   position: relative;
   padding: 1rem;
   flex-wrap: wrap;
-  overflow: hidden;
 }
 
 .navbar ul {
