@@ -79,3 +79,8 @@
     color: gold;
   }
 }
+@media only screen and (max-width: 450px) {
+  * {
+    overflow-x: hidden;
+  }
+}
