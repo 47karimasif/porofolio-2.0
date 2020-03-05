@@ -110,7 +110,7 @@ header {
   overflow-y: hidden;
 }
 .navbar ul li a {
-  color: rgb(105, 236, 253);
+  color: rgb(49, 195, 214);
   padding: 0.5rem;
   margin: 0 0.25rem;
   border-bottom: 2px transparent solid;
@@ -343,7 +343,7 @@ header {
 }
 /* projects */
 #project {
-  margin: 60px 0;
+  margin: 60px 10px;
   position: relative;
 }
 #project .subheading {
