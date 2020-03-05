@@ -106,11 +106,8 @@ header {
   align-items: center;
   flex-wrap: wrap;
 }
-.navbar ul li {
-  overflow-y: hidden;
-}
 .navbar ul li a {
-  color: rgb(49, 195, 214);
+  color: rgb(47, 236, 236);
   padding: 0.5rem;
   margin: 0 0.25rem;
   border-bottom: 2px transparent solid;
@@ -118,7 +115,7 @@ header {
 }
 
 .navbar ul li a:hover {
-  color: rgba(211, 224, 25, 0.795);
+  border-color: gold;
 }
 
 #logo {

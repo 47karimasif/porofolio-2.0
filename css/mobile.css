@@ -18,6 +18,15 @@
 
 /* for-mobile */
 @media only screen and (max-width: 550px) {
+  .navbar ul li {
+    overflow-y: hidden;
+  }
+  .navbar ul li a {
+    color: rgb(44, 241, 255);
+  }
+  .navbar ul li a:hover {
+    color: gold;
+  }
   .navbar {
     flex-direction: column;
   }
