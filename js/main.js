@@ -1,11 +1,3 @@
-// hamburger menu
-const toggleCollapse = document.querySelector(".toggle-collapse span");
-const navbar = document.querySelector(".navbar");
-
-toggleCollapse.onclick = () => {
-  navbar.classList.toggle("collapse");
-};
-
 // animation
 AOS.init();
 

@@ -1,22 +1,4 @@
 @media only screen and (max-width: 800px) {
-  .navbar ul {
-    flex-direction: column;
-  }
-  .navbar ul li {
-    padding: 10px;
-  }
-  .navbar {
-    flex-direction: column;
-    display: block;
-    min-height: 9vh;
-    transition: height 1s ease;
-  }
-  .toggle-collapse {
-    display: initial;
-  }
-  .collapse {
-    height: 15rem;
-  }
   .about-content {
     display: block;
   }
@@ -36,6 +18,17 @@
 
 /* for-mobile */
 @media only screen and (max-width: 550px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar ul {
+    justify-content: center;
+  }
+  #logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
   #showcase {
     height: 85vh;
   }
@@ -84,11 +77,6 @@
   .resume:hover {
     border-color: #64ffda;
     color: gold;
-  }
-}
-@media only screen and (max-width: 360px) {
-  .navbar {
-    min-height: 12vh;
   }
 }
 @media only screen and (max-width: 499px) {
