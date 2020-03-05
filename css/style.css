@@ -210,7 +210,6 @@ header {
 }
 .about-items:nth-child(2) {
   flex: 2;
-  font-family: "Work Sans";
   padding-left: 15px;
   font-size: 0.9rem;
 }
